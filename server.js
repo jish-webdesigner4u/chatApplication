@@ -11,7 +11,7 @@ app.use(express.static(__dirname))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))//to encode msgs on browser
 
-var dbUrl = 'mongodb+srv://ishu:amityyadav@cluster0.w9paw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+var dbUrl = 'mongodb+srv://<username>:<password>@cluster0.w9paw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const client = new MongoClient(dbUrl);
 
 var Message = mongoose.model('Message', {
