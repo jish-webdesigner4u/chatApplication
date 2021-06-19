@@ -1,7 +1,7 @@
 # chatApplication - 
 This is the real time chatting website for everyone. Those who want to have group chats or two way chats, everything is possible.
 
-![chatApp](https://user-images.githubusercontent.com/64457505/122631388-21ebf000-d0e9-11eb-8c6c-350507c252c0.jpeg)
+![Uploading image.png…]()
 
 # Description
 The website has just one section currently:
